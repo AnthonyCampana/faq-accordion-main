@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (min-width: 376px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        background-color: hsl(275, 100%, 97%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .background-header {
+        background-image: url("../assets/images/background-pattern-desktop.svg");
+        width: 100%;
+        height: 35.5%;
+        position: absolute;
+        top: 0%;
+    }
+
+    .FAQ-content-background {
+        width: 42%;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 19px;
+        z-index: 1;
+        box-shadow: 0px 20px 20px 18px hsl(292, 42%, 14%, 0.1);
+    }
+
+    .FAQ-content-container {
+        margin: 6.4% 7.2% 6.5% 7%;
+    }
+
+    .title-container {
+        display: flex;
+        margin-bottom: 6%;
+    }
+
+    .title {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 56.1px;
+        margin-left: 4.7%;
+        font-weight: 700;
+    }
+
+    .question-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4.8%;
+    }
+
+    .question-link {
+        border: none;
+        padding: 0;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        color: hsl(292, 42%, 14%);
+        background: none;
+        font-size: 18px;
+    }
+
+    .question-link:hover {
+        color: hsl(275, 100%, 97%);
+    }
+
+    .info-icon {
+        background-image: url("../assets/images/icon-plus.svg");
+        height: 31px;
+        width: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .answer-section {
+        display: none;
+        font-family: 'Work Sans', sans-serif;
+        color: hsl(292, 16%, 49%);
+        margin-bottom: 4.5%;
+        line-height: 24px;
+    }
+
+    hr {
+        margin-bottom: 4.2%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        background-color: hsl(275, 100%, 97%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .background-header {
+        background-image: url("../assets/images/background-pattern-mobile.svg");
+        width: 100%;
+        height: 28.6%;
+        position: absolute;
+        top: 0%;
+    }
+
+    .FAQ-content-background {
+        width: 87%;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 10px;
+        z-index: 1;
+        box-shadow: 0px 20px 20px 18px hsl(292, 42%, 14%, 0.1);
+    }
+
+    .FAQ-content-container {
+        margin: 7.9% 7.2% 8.2% 7%;
+    }
+
+    .title-container {
+        display: flex;
+        margin-bottom: 9%;
+    }
+
+    .star-icon {
+        width: 9%;
+    }
+
+    .title {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 32.1px;
+        margin-left: 8%;
+        font-weight: 700;
+    }
+
+    .question-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 7%;
+    }
+
+    .question-link {
+        border: none;
+        padding: 0;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        color: hsl(292, 42%, 14%);
+        background: none;
+        font-size: 16px;
+        width: 75%;
+        text-align: left;
+    }
+
+    .question-link:hover {
+        color: hsl(275, 100%, 97%);
+    }
+
+    .info-icon {
+        background-image: url("../assets/images/icon-plus.svg");
+        height: 31px;
+        width: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 1%;
+    }
+
+    .answer-section {
+        display: none;
+        font-family: 'Work Sans', sans-serif;
+        color: hsl(292, 16%, 49%);
+        margin-bottom: 7.5%;
+        line-height: 21px;
+        font-size: 14px;
+        width: 96%;
+        padding-top: 1%;
+    }
+
+    hr {
+        margin-bottom: 6.3%;
+    }
+}
